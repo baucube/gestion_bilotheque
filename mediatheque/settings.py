@@ -79,8 +79,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'mediatheque',
-        'USER': 'django_user',
-        'PASSWORD': 'mot_de_passe',
+        'USER': 'administrateur',
+        'PASSWORD': 'administrateur',
         'HOST': 'localhost',
         'PORT': '3306',
     }
