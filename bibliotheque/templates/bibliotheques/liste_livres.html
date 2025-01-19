@@ -1,0 +1,9 @@
+<ul>
+    {% if livres %}
+        {% for livre in livres %}
+            <li>{{ livre.name }} - {{ livre.auteur }}</li>
+        {% endfor %}
+    {% else %}
+        <p>Aucun livre disponible.</p>
+    {% endif %}
+</ul>
