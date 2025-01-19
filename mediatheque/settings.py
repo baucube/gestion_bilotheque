@@ -77,10 +77,15 @@ WSGI_APPLICATION = 'mediatheque.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'mediatheque',
+        'USER': 'django_user',
+        'PASSWORD': 'mot_de_passe',
+        'HOST': 'localhost',
+        'PORT': '3306',
     }
 }
+
 
 
 # Password validation

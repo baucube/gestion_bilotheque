@@ -10,6 +10,6 @@ def liste_livres(request):
     return render(request, 'bibliotheque/liste_livres.html', {'livres': livres})
 
 def index(request):
-    return HttpResponse("Bienvenue dans l'application Bibliothèque !")
+    return HttpResponse("<h1>Bienvenue dans l'application Bibliothèque !</h1>")
 
 
